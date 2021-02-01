@@ -1,0 +1,49 @@
+Open source is basically free for everyone, transperant. i.e anyone can see the manipulation of data. collaboration, rapid protyping, meritocracy and community are some features of open source softwares
+linux, git, tensorflow,apache web browser,telegram, word press and arduino are sme examples.
+proprietary software ----> only available to devs and codes are protected. also called closed source and not free for all. Eg Ms office, adobe photoshop, pycharm by jet brain and whatsapp.
+all commands are case sensitive in git bash.
+ls-----> displays list of all docs (directories), folders in blue and files in white. (single word file/folder names will be under ' ').
+'\ ' -----> Is for spacing. Eg Git Hunb is to be writtern as Git\ hub.
+cd foldername. cd is called change directory (only for folders). basically to open a particular folder or file.
+cd .. ----> 'means get back'. remember there is a apce between cd and the dots).
+we can start with cd filename(half complete), if we press tab button it automatically complete the filename.but only if thiiiiiiie name is of single word
+clear -----> clears them all and restarts the program to go again. 
+mkdir foldername----> abbreviation for make directory. its basically making a new folder.
+rmdir foldername----->delete a particular folder. even if the folder to be deleted contains a set of folders, then even those folders get deleted.
+mkdir fol1 fol2 ---> creates 2 folders or 2 directories.
+rmdir fol1 fol2 ----> deletes 2 folders or 2 directories.
+if a non-existent folder is commanded to be deleted, then it throws an error.
+touch filename--->to create files
+code filename-----> opens VS (visual studio -- recomended) code.
+nano filename------> opens git bash's inbuilt vs software and edit.
+we press ctrl x (to save) and press y (if yes) or N (if no) and press enter button.
+changes will be automatically saved in vs code
+rm filename----> removes the files (only direct files)
+pwd -----> shows the current directory at work
+help ---> shows manual help, shows all the flags and stuffs
+ALL GIT COMMANDS START WITH git
+config --> configuring
+gl --global user.name "your name"
+git config --global user.email emailid@domain.com
+git init ----> set and track changes (always to be done before we start tracking)
+git status --->reveals status
+git add filename----> adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area and starts tracking.
+git commit -m"comment/message"
+git log ----> gets the data of all the commits that have been done in the past along with who and when. With the most recent commit at the first.
+git log --oneline ------> gets the comment/message added when we commited a particular file.
+EACH COMMIT HAS A VERY BIG ID. SO WE CAN USE git log --oneline COMMAND TO JUST SEE THE MESSAGE IN THE COMMITS WITH A SMALLWE ID.
+git branch---> shows all the current branches.
+git checkout -b 'branch name'---->  -b creates a new branch
+git diff branch1 branch2 ---> The git branch command lets you create, list, rename, and delete branches. It doesn't let you switch between branches or put a forked history back together again. For this reason, git branch is tightly integrated with the git checkout and git merge commands.
+git merge branch1 branch2 --->merges branch1 to branch 2
+git revert---> The git revert command is a forward-moving undo operation that offers a safe method of undoing changes.
+git reset --> removes every commit after the id we specify and not safe.it reset is a powerful command that is used to undo local changes to the state of a Git repo.
+git remote add origin url----> A remote in Git is a common repository that all team members use to exchange their changes. here we added a remote of url to a name origin.
+git branch -M main----->Branching offers a way to work on a new feature without affecting the main codebase. If the changes work, the branch can be merged back with the main branch.
+git push -u origin main-------> push your work to the local to remote repo.
+git pull -------> does the opposite of git push.
+GITHUB USES MAIN INSTEAD OF MASTER
+GIT ALWAYS WANTS THE USER TO ADD EVERY CHANGE BEFORE PUSHING
+USE ctrl c TO BREAK THE EXECUTION PROCESS IN CASE OF FAILURE
+
+
